@@ -1,0 +1,76 @@
+Name: Richard Castro
+CSE 160
+Homework 2
+
+For each problem that requires a written answer, write (or copy-and-paste)
+your answers in this file.  When you are done, you should have replaced all
+the ellipses (the three dots) with your answers.
+
+At the end, you will turn in this file and your modified
+dna_analysis.py program.
+
+
+Problem 1:
+
+(No answers in this file.)
+
+Problem 2:
+GC-content: 0.4302926296296296
+GC-content: 0.45105133333333336
+GC-content: 0.6468641125240355
+GC-content: 0.3478523411663431
+GC-content: 0.2631578947368421
+GC-content: 0.4915185185185185
+
+Problem 3:
+a. By making GC_count = 0 a comment, we eliminated the outside variable. 
+    Nothing is catching the local variable that is inside the for loop
+    so we cant use it outside the for loop and can't update it either
+
+b. The for loop is based on the string that was made by the file
+    so taking away that string means that there isnt anything 
+    to loop from. Nucleotides essentially doesnt exist so it
+    crashes
+
+
+Problem 4:
+
+GC-content: 0.4302926296296296
+AT-content: 0.5689938518518518 
+
+Problem 5:
+
+G count: 5738773
+C count: 5879128
+A count: 7701287
+T count: 7661547
+
+Problem 6:
+Test small : all 3 the same
+Sample 1, 2, 3, 4, 6: Sum is different than the other 2
+gc 1, gc 2, moderate 1. moderate 2: Have total counts and length at 40000 
+    but sum is different
+
+Im assuming that the total count and length are counting the same
+exact thing but the sum means there could be less of the amount. The sum will
+always be at or less than the total. There could be other letter besides the four.
+
+I would have to imagine exactly what the computer thinks I'm saying litterally.
+To do that i have to find where the mistake was made and when. I can change it 
+after
+
+The denominator should be the total count or length, either is fine. They are
+the greater number and always equal.
+
+Problem 7:
+
+AT/GC Ratio: 1.3223416174746196
+
+Problem 8:
+
+GC Classification: moderate GC content
+
+Collaboration:
+
+...
+
